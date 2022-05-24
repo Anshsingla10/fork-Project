@@ -1,0 +1,92 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+  }
+.centered:hover{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+}
+.content{
+    margin:10px 0px 0px 0px;
+}
+.slider{
+    margin:0px;
+    border: 2px solid black;
+}
+.content{
+    background-color: #3e6553;
+    border-radius: 15px;
+    padding: 15px 8px 8px 15px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+.plants{
+    margin-top: 20px;
+}
+.pt1-des,.pt2-des,.pt3-des,.pt4-des,.pt5-des{
+    background-color: rgba(207, 228, 238, 0);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px;
+}
+.but{
+    background-color:#3e6553;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+.plant-ex{
+    width: 250px;
+    border-radius: 15px;
+}
+.plant-name{
+    margin-left: 20px;
+}
+#myVideo{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+  }
+  .card-body{
+      color: black !important;
+      display: flex;
+      background-color:#20bf55;
+      background-image:linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+      justify-content: center;
+
+  }
+  p{
+  
+    font:'Poppins', sans-serif;
+
+}
+h2{
+    
+    font:'Poppins', sans-serif;
+}
